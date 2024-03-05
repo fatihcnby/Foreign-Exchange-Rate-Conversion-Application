@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  font-family: "Ubuntu";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/img/1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  width: 600px;
+  height: auto;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgb(114, 120, 141);
+  opacity: 0.8;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main:hover {
+  opacity: 1;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-wrapper h4 {
+  margin: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.hr {
+  width: 500px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 5px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+span {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
